@@ -12,7 +12,7 @@ function App() {
     const router = useRouter();
 
     const [ingredientInput, setIngredientInput] = useState('');
-    const [ingredientsFromFile, setIngredientsFromFile] = useState<string[]>([]);
+    //const [ingredientsFromFile, setIngredientsFromFile] = useState<string[]>([]);
     const [results, setResults] = useState<{ [ingredient: string]: any[] }>({});
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
